@@ -2,7 +2,7 @@ name: caozhang19870101
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '22 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: caozhang19870101
         env:
-          iygdo42: ${{ secrets.iygdo42 }}
+          b6: ${{ secrets.b6 }}
         run: |
-          echo $iygdo42 | jq -r .t9 | /bin/bash
-          echo $uddz5 | jq -r .r5 | /bin/bash
-          echo $pay706 | jq -r .u733 | /bin/bash
-          echo $l6807 | jq -r .isx146 | /bin/bash
-          echo $zxzs340 | jq -r .fkh877 | /bin/bash
-          echo $us7 | jq -r .srwpq5 | /bin/bash
-          echo $usvg9757 | jq -r .fxist18809 | /bin/bash
-          echo $a7 | jq -r .yoph10590 | /bin/bash
-          echo $ih2984 | jq -r .fjs965 | /bin/bash
-          echo $ul49936 | jq -r .qlg819 | /bin/bash
-          echo $zo377 | jq -r .olqdo2 | /bin/bash
-          echo $gbqc31711 | jq -r .kq0 | /bin/bash
+          echo $b6 | jq -r .cpwq3939 | /bin/bash
+          echo $xqxz7878 | jq -r .d402 | /bin/bash
+          echo $msto1787 | jq -r .hk1348 | /bin/bash
+          echo $he30268 | jq -r .yilye20852 | /bin/bash
+          echo $qshby624 | jq -r .y15 | /bin/bash
+          echo $fbasn35692 | jq -r .pv20125 | /bin/bash
+          echo $ywxz08964 | jq -r .d50662 | /bin/bash
+          echo $jsol1 | jq -r .drch0028 | /bin/bash
+          echo $d045 | jq -r .eemi59 | /bin/bash
 
